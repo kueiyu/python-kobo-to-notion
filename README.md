@@ -1,10 +1,10 @@
 # python-kobo-to-notion
 
-Credit to @juliariec for the great work of [export-kobo-to-notion](https://github.com/juliariec/export-kobo-to-notion)
+**Credit:** to @juliariec for the great work of [export-kobo-to-notion](https://github.com/juliariec/export-kobo-to-notion)
 
 ## Description
 
-This project is helping the users transfer their kobo highlights to their notion.
+This project helps users transfer their kobo highlights to their Notion page.
 
 ## Installation
 
@@ -23,10 +23,20 @@ Version 1.0 download [link](https://github.com/kueiyu/python-kobo-to-notion/blob
 NOTION_TOKEN=your_notion_integration_token
 DATABASE_ID=your_notion_database_id
 ```
-To save `.env` in Windows, use `note` and save as `.env` as All files type.
+Save `.env` in Windows
+Use Notepad and save as `.env` as "All files" type selected.
 
-3. Copy your KoboReader.sqlite and put all of them in the folder python-kobo-to-notion
+3. Copy the `.kobo/KoboReader.sqlite` to the folder python-kobo-to-notion
+```
+python-kobo-to-notion/
+├── KoboReader.sqlite
+├── .env
+├── main.py
+└── (optional) kono_notes_to_notion.exe
+```
 
-4. Make sure your Notion Page is combine with your Notion Database, and also provide the `Text:Title` and `Checkbox:Highlights`
+4. Make sure your Notion Page is combine with your Notion Database, and creates properties named `Text:Title` and `Checkbox:Highlights`
 
-5. Run the python script by `python main`
+5. Run the python
+- Using Python: run the python script by `python main.py` in your terminal
+- Using the executable: Double click the file kono_notes_to_notion.exe (Windows only)
