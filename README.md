@@ -1,6 +1,6 @@
 # python-kobo-to-notion
 
-**Credit:** to @juliariec for the great work of [export-kobo-to-notion](https://github.com/juliariec/export-kobo-to-notion)
+**Credit:** to @juliariec for the incredible work of [export-kobo-to-notion](https://github.com/juliariec/export-kobo-to-notion)
 
 ## Description
 
@@ -15,7 +15,6 @@ This project helps users transfer their kobo highlights to their Notion page.
     pip install -r requirements.txt
 ```
 
-Version 1.0 download [link](https://github.com/kueiyu/python-kobo-to-notion/blob/b23b7fa6288790301a03cff662fd3755ead0a0ed/kobo_notes_to_notion.exe)
 
 2. Create a `.env` file with the following content:
 (You could checkout the details in the `.env.example`)
